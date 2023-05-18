@@ -6,7 +6,6 @@
  */
 
 import React from 'react';
-// import type { PropsWithChildren } from 'react';
 import {
   // SafeAreaView,
   StatusBar,
@@ -18,41 +17,8 @@ import {
 
 import {
   Colors,
-  // DebugInstructions,
   // Header,
-  // LearnMoreLinks,
-  // ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-
-// type SectionProps = PropsWithChildren<{
-//   title: string;
-// }>;
-
-// function Section({ children, title }: SectionProps): JSX.Element {
-//   const isDarkMode = useColorScheme() === 'dark';
-//   return (
-//     <View style={styles.sectionContainer}>
-//       <Text
-//         style={[
-//           styles.sectionTitle,
-//           {
-//             color: isDarkMode ? Colors.white : Colors.black,
-//           },
-//         ]}>
-//         {title}
-//       </Text>
-//       <Text
-//         style={[
-//           styles.sectionDescription,
-//           {
-//             color: isDarkMode ? Colors.light : Colors.dark,
-//           },
-//         ]}>
-//         {children}
-//       </Text>
-//     </View>
-//   );
-// }
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -77,43 +43,6 @@ function App(): JSX.Element {
         <View id="elem1" style={[styles.active, styles.elem]}>
           <Text>3</Text>
         </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>4</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>5</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>6</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>7</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>8</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>9</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>10</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>11</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>12</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>13</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>14</Text>
-        </View>
-        <View id="elem1" style={[styles.active, styles.elem]}>
-          <Text>15</Text>
-        </View>
-        <View id="elem1" style={[styles.empty, styles.elem]} />
       </View>
     </>
   );
